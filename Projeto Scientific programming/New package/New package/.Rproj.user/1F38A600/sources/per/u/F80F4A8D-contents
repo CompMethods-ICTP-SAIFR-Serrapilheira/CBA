@@ -1,0 +1,6 @@
+install.packages("devtools")
+install.packages("usethis")
+install.packages("available")
+
+devtools::has_devel()
+usethis::create_package("../foo")
