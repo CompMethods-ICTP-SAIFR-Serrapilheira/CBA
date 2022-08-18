@@ -49,3 +49,4 @@ csl: abnt.csl
 <center>![Children with microcephaly have a higher production of IFN-g and IL-2 than children without microcephaly. Cytokines IFN-g (A), IL-2 (B), IL-4 (C), IL-5 (D), IL-6 (E), IL-10 (F) and TNF-a (G) were quantified in the sera of 17 children with microcephaly and 17 control children by the Cytometric Bead Array method. Graphs were plotted as mean ± standard deviation. The Mann-Whitney test was used in all analyses. Graphs were plotted as mean ± standard deviation](Figura com todas as citocinas.png){ width=90% }<center>
   
 ## **References**
+ 
