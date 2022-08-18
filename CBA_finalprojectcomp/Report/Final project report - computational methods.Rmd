@@ -1,73 +1,51 @@
 ---
 title: "Final project report - computational methods"
 author: "Amanda Costa Ayres Salmeron"
-date: '2022-08-17'
+date: 'August - 2022'
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+bibliography: references.bib
+csl: abnt.csl
 ---
-
 # **Functional analysis of the immune system of children with microcephaly using serum cytokines**
-
+  
 ## **Introduction**
-Despite being an old pathology, it was after the ZIKV epidemic that microcephaly, characterized by a malformation in the central nervous system (CNS) in which the head circumference is smaller than the typical size for sex and age, gained greater social and scientific visibility (DINIZ, 2016). Between 2015 and 2018, 17,116 cases of microcephalic children due to congenital infections were reported in Brazil, with 58.3% of cases concentrated in the Northeast (SECRETARIA DE VIGILÂNCIA EM SAÚDE, 2020). In the same period, the state of Rio Grande do Norte had 163 laboratory confirmed cases (SECRETARIA DE SURVEILLANCE IN HEALTH, 2020). By monitoring these patients in the first years of life, it was possible to identify a series of symptoms, in addition to the neurological damage, which is already well established. As congenital infections normally occur during a critical period of development and formation of lymphoid organs, they can affect leukocytopoiesis and erythropoiesis, compromising the immune system of affected children and leading to different levels of immunosuppression. Previous studies from our group showed that children with microcephaly have a high number of hospitalizations and diagnosis of pneumonia, associated with important changes in the size, topography and volume of lymphoid organs, generalized leukocytosis with morphological changes in lymphocytes and neutrophils, allergic susceptibility, in addition to have impaired memory T cell response.
-
+  Despite being an old pathology, it was after the ZIKV epidemic that microcephaly, characterized by a malformation in the central nervous system (CNS) in which the head circumference is smaller than the typical size for sex and age, gained greater social and scientific visibility [@Diniz2016]. Between 2015 and 2018, 17,116 cases of microcephalic children due to congenital infections were reported in Brazil, with 58.3% of cases concentrated in the Northeast [@Brasil2020]. In the same period, the state of Rio Grande do Norte had 163 laboratory confirmed cases [@Brasil2020]. By monitoring these patients in the first years of life, it was possible to identify a series of symptoms, in addition to the neurological damage, which is already well established [@Cavalcanti2017; @Huang2016; @Bayless2016; @Faizan2017; @Azevedo2018]. As congenital infections normally occur during a critical period of development and formation of lymphoid organs, they can affect leukocytopoiesis and erythropoiesis, compromising the immune system of affected children and leading to different levels of immunosuppression [@Silva2006; @Veiga2007]. Previous studies from our group showed that children with microcephaly have a high number of hospitalizations and diagnosis of pneumonia, associated with important changes in the size, topography and volume of lymphoid organs, generalized leukocytosis with morphological changes in lymphocytes and neutrophils, allergic susceptibility, in addition to have impaired memory T cell response [@Salmeron2022].
+  
 ## **Objective**
-Knowing that children with microcephaly have morphometric alterations in the spleen, thymus and cervical lymph nodes, in addition to generalized leukocytosis with morphological alterations of lymphocytes and neutrophils, our objective was to analyze the functionality of immune cells by measuring serum concentrations of IFN-γ cytokines, IL-2, IL-4, IL-5, IL-6 and TNF-a.
-
+  Knowing that children with microcephaly have morphometric alterations in the spleen, thymus and cervical lymph nodes, in addition to generalized leukocytosis with morphological alterations of lymphocytes and neutrophils, our objective was to analyze the functionality of immune cells by measuring serum concentrations of IFN-g cytokines, IL-2, IL-4, IL-5, IL-6 and TNF-a.
+  
 ## **Methods**
+  
 ### *Subjects and ethical considerations*
-The volunteers of this research were children aged between 9 months and 8 years of age, of both sexes. The children were divided into two groups: the Control Group and the Microcephaly Group.  The CG consisted of 17 children, aged between 9 months and 8 years, both genders, without microcephaly or neuromotor dysfunctions and who also do not have immunocompromise or autoimmune disorders. The GM consisted of 24 children of the same age as the CG, both genders, diagnosed with microcephaly (head circumference two standard deviations below the mean for gender and gestational period) and without a diagnosis of secondary immunodeficiency or autoimmune disorders. The clinical diagnosis of Congenital Zika Virus Syndrome was performed according to the protocol established by the Ministry of Health of Brazil (BRASIL, 2017) and as described by previous studies (DE ARAÚJO et al., 2018; SILVA et al., 2018). ; MOORE et al., 2017).
-All participants were recruited from the Anita Garibaldi Health Education and Research Center (CEPS; Macaíba – RN) and children who were vaccinated or had suspected infections in the last 14 days were excluded from the work. The execution of the study followed the rules of the National Health Council, Resolution No. 466/2012. The research was approved by the Ethics Committee for Research with Human Beings on 11.03.17 under protocol No. CAAE 74871317.8.0000.5292 and 17583419.7.0000.5537. The collections were only started after completing and signing the free and informed consent form.
-
-### *Blood collection*
-Peripheral blood samples (10 mL) were collected by venipuncture with a sterile, disposable 10 mL syringe and transferred to a collection tube containing ethylenediamine tetraacetic acid (EDTA).
-
-### *Dosage of cytokines*
-The cytokines IFN-γ, IL-2, IL-4, IL-5, IL-6, IL-10 and TNFα were quantified in serum samples from children of both groups by the Cytometric Bead Array (CBA) method using kits (Flex Cytometric Bead Array Enhanced Sensitivity, BD Pharmingen, USA), according to the manufacturer's instructions. Samples were acquired using the Fortessa LSR flow cytometer (BD Biosciences, USA), data analysis was performed using the FCAP Array software (BD Biosciences, USA). The detection limits were: 14.84 fg/mL for IFN-γ, 88.9 fg/mL for IL-2, 144.4 fg/mL for IL-4, 67.8 fg/mL for IL-5, 68.4 fg/ml for IL-6, 13.7 fg/ml for IL-10 and 67.3 fg/ml for TNFα.
-
-
-### *Data analysis*
-The data used is of its own authorship and have already been published by the author [paper](https://link.springer.com/article/10.1007/s00430-022-00746-5).
+  The volunteers of this research were children aged between 9 months and 8 years of age, of both sexes. The children were divided into two groups: the Control Group (CG) and the Microcephaly Group (MG).  The CG consisted of 17 children, aged between 9 months and 8 years, both genders, without microcephaly or neuromotor dysfunctions and who also do not have immunocompromise or autoimmune disorders. The MG consisted of 24 children of the same age as the CG, both genders, diagnosed with microcephaly (head circumference two standard deviations below the mean for gender and gestational period) and without a diagnosis of secondary immunodeficiency or autoimmune disorders.  
+  The execution of the study followed the rules of the National Health Council, Resolution No. 466/2012. The research was approved by the Ethics Committee for Research with Human Beings on 11.03.17 under protocol No. CAAE 74871317.8.0000.5292 and 17583419.7.0000.5537. The collections were only started after completing and signing the free and informed consent form.
   
-The scripts, reports, raw and processed data, and the outputs can be find [here](https://github.com/CompMethods-ICTP-SAIFR-Serrapilheira/CBA).
+### *Blood collection and dosage of cytokines*  
+  Peripheral blood samples (10 mL) were collected by venipuncture with a sterile, disposable 10 mL syringe and transferred to a collection tube containing ethylenediamine tetraacetic acid (EDTA). The cytokines IFN-g, IL-2, IL-4, IL-5, IL-6, IL-10 and TNFa were quantified in serum samples from children of both groups by the Cytometric Bead Array (CBA) method using kits (Flex Cytometric Bead Array Enhanced Sensitivity, BD Pharmingen, USA), according to the manufacturer's instructions. Samples were acquired using the Fortessa LSR flow cytometer (BD Biosciences, USA), data analysis was performed using the FCAP Array software (BD Biosciences, USA). The detection limits were: 14.84 fg/mL for IFN-g, 88.9 fg/mL for IL-2, 144.4 fg/mL for IL-4, 67.8 fg/mL for IL-5, 68.4 fg/ml for IL-6, 13.7 fg/ml for IL-10 and 67.3 fg/ml for TNFa.
   
-The data were organized in an excel spreadsheet and imported into R studio using the csv format.
-    
-The first step after importing the data was the exploratory analysis. The following analyzes were performed in relation to the control group and the microcephaly group, evaluating each cytokine separately:
+### *Data analysis*  
+  The data used is of its own authorship and have already been published by the author [paper](https://link.springer.com/article/10.1007/s00430-022-00746-5). The scripts, reports, raw and processed data, and the outputs can be find [here](https://github.com/CompMethods-ICTP-SAIFR-Serrapilheira/CBA).  
+  The data were organized in an excel spreadsheet and imported into R studio using the csv format.
   
-1. Amplitude analysis by function `range`;
-2. Assessment of the number of appropriate categories by the function `nclass.Sturges`;
-3. Creating a table with categories by function `table`;
-4. Calculation of the mean, deviation, error and median by the function `describe`;   
+### *Exploratory data analysis and plots*
+  The first step after importing the data was the exploratory analysis. The following analyzes were performed in relation to the control group and the microcephaly group, evaluating each cytokine separately. 
+1. Amplitude analysis by function `range`;  
+2. Assessment of the number of appropriate categories by the function `nclass.Sturges`;  
+3. Creating a table with categories by function `table`;  
+4. Calculation of the mean, deviation, error and median by the function `describe`;
 5. Verification of data normality by group by the function `byf.shapiro`;  
 6. Verification of the homogeneity of variances by the function `leveneTest`;  
-7. Checking for the presence of outliers by code and by plotting for each cytokine (as described in the example below for the cytokine IFN-g)  
-```[r]
-#IFNg
-dados %>%
-  group_by(GRUPO) %>%
-  identify_outliers(IFN.g)
-
-boxplot(IFN.g ~ GRUPO, data = dados, ylab="IFNg (Fg/mL)")
-```
-8. The ANOVA test was then performed for each citokyne as the example below
-```[r]
-#IFNg
-anova_IFN.g <- aov(IFN.g ~ GRUPO, dados)
-summary(anova_IFN.g)
-```
-9. Post hoc analyzes were done using the following function `PostHocTest` by three different methods: duncan, TukeyHSD and Bonferroni.
-```[r]
-library(knitr)
-#IFNg
-round(
-  cbind(duncan = PostHocTest(anova_IFN.g, method="duncan")$GRUPO[,"pval"], bonf = PostHocTest(anova_IFN.g, method="bonf")$GRUPO[,"pval"], hsd = PostHocTest(anova_IFN.g,method="hsd")$GRUPO[,"pval"]),
+7. Checking for the presence of outliers by the function `identify_outliers` and by plotting using boxplots for each cytokine;  
+8. The ANOVA test was then performed for each citokyne using the function `aov`;  
+9. Post hoc analyzes were done using the following function `PostHocTest` by three different methods: duncan, TukeyHSD and Bonferroni;  
+10. The Mann-Whitney test was performed by the function `wilcox.test`;  
+11. The data distribution of each cytokine in each group was visualized by the function `hist`;  
+12. Mean values were ploted with confidence interval and standard deviation per cytokine using the function `ggplot`;  
+13. The final graphs for each cytokine were plotted using the function `ggplot`, the two groups were plotted with statistical analysis, the mean and individuals values for each subject.  
   
-```
-
-
 ## **Results**
-An increase in the concentrations of IFNγ cytokines (p = 0.0097), IL-4 (p = 0.0223) and IL-2 (p = 0.0185) was observed in children in the microcephaly group even in the absence of symptomatic infections, or parasitic and genitourinary infections. asymptomatic. The cytokines IL-6, IL-5, TNF-a, IL-10 showed no significant difference between children in the microcephaly group and the control group.
-
+  An increase in the concentrations of IFN-g cytokines and IL-2 was observed in children in the microcephaly group even in the absence of symptomatic infections, or parasitic and genitourinary asymptomatic infections. The cytokines IL-4, IL-5, IL-6, IL-10 and TNF-a showed no significant difference between children in the microcephaly group and the control group (Figure 1).
+<center>![Children with microcephaly have a higher production of IFN-g and IL-2 than children without microcephaly. Cytokines IFN-g (A), IL-2 (B), IL-4 (C), IL-5 (D), IL-6 (E), IL-10 (F) and TNF-a (G) were quantified in the sera of 17 children with microcephaly and 17 control children by the Cytometric Bead Array method. Graphs were plotted as mean ± standard deviation. The Mann-Whitney test was used in all analyses. Graphs were plotted as mean ± standard deviation](Figura com todas as citocinas.png){ width=90% }<center>
+  
+## **References**
