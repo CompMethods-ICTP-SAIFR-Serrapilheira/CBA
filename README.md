@@ -1,8 +1,8 @@
-# CBA
-Serrapilheira/ICTP-SAIFR Training Program in Quantitative Biology and Ecology
-Author: Amanda Costa Ayres Salmeron
-Date: 18/08/2022
-Data already published in: https://link.springer.com/article/10.1007/s00430-022-00746-5
+# CBA  
+Serrapilheira/ICTP-SAIFR Training Program in Quantitative Biology and Ecology  
+Author: Amanda Costa Ayres Salmeron  
+Date: 18/08/2022  
+Data already published in: https://link.springer.com/article/10.1007/s00430-022-00746-5  
 
 ### Title: Functional analysis of the immune system of children with microcephaly using serum cytokines
 The scripts, report, raw and processed data, and the outputs can be find in: https://github.com/CompMethods-ICTP-SAIFR-Serrapilheira/CBA
